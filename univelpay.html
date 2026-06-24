@@ -1,0 +1,119 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNIVELPAY</title><style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111827;
+color:white;
+}
+
+.topo{
+background:#1f2937;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+gap:20px;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+}
+
+.container{
+padding:30px;
+}
+
+.card{
+background:#1f2937;
+padding:20px;
+border-radius:12px;
+margin-bottom:20px;
+}
+
+.saldo{
+font-size:40px;
+font-weight:bold;
+margin-top:10px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+button{
+width:100%;
+padding:15px;
+border:none;
+border-radius:10px;
+background:#10b981;
+color:white;
+font-size:18px;
+cursor:pointer;
+margin-top:10px;
+}
+
+input{
+width:100%;
+padding:12px;
+border:none;
+border-radius:8px;
+margin-top:10px;
+}
+
+.login{
+max-width:400px;
+margin:50px auto;
+background:#1f2937;
+padding:25px;
+border-radius:12px;
+}
+
+h2{
+margin-bottom:15px;
+}
+</style></head><body><div class="topo">
+<div class="logo">UNIVELPAY</div><div class="menu">
+<a href="#">Dashboard</a>
+<a href="#">PIX</a>
+<a href="#">Extrato</a>
+<a href="#">Perfil</a>
+</div>
+</div><div class="login"><h2>Entrar</h2><input type="email" placeholder="Email"><input type="password" placeholder="Senha"><button>Entrar</button>
+
+</div><div class="container"><div class="card"><h2>Saldo Disponível</h2><div class="saldo">
+R$ 0,00
+</div></div><div class="grid"><div class="card">
+<h2>Gerar PIX</h2>
+<button>Gerar Cobrança</button>
+</div><div class="card">
+<h2>Enviar PIX</h2>
+<button>Transferir</button>
+</div><div class="card">
+<h2>Extrato</h2>
+<button>Ver Extrato</button>
+</div><div class="card">
+<h2>Configurações</h2>
+<button>Abrir</button>
+</div></div></div></body>
+</html>
